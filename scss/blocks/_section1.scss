@@ -1,0 +1,58 @@
+.main {
+
+    &__section1 {
+        content: "";
+        background-image: url("../../images/icon-2.svg"), url("../../images/icon-1.svg"), url("../../images/Bitmap.jpg");
+        background-repeat: no-repeat;
+        background-position: 85% 64%, left center, center;
+        background-size: 20%, none;
+        width: 1200px;
+        height: 650px;
+    }
+
+    &__title {
+        width: 500px;
+        height: 112px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        color: $btn-color;
+        position: relative;
+        top: 120px;
+        left: 100px;
+    }
+
+    &__description {
+        width: 405px;
+        height: 100px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: $btn-color;
+        position: relative;
+        top: 180px;
+        left: 160px;
+    }
+
+    &__btn {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        width: 180px;
+        height: 53px;
+        padding: 14px 39px;
+        color: $btn-color;
+        text-align: center;
+        background-color: $btn-bg;
+        text-decoration: none;
+        border: 3px solid $btn-bg;
+        position: relative;
+        top: 240px;
+        left: 160px;
+
+        &:hover {
+            color: $btn-bg;
+            background-color: transparent;
+        }
+    }
+}
